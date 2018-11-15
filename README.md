@@ -1,10 +1,14 @@
 # FGM
 Facebook Group Manager (for termux)
 
-pkg update
-pkg upgrade
+# [ Installation for termux ]
+```
+$ pkg update upgrade
+$ pkg install git python2 curl
+$ git clone https://github.com/Keiserg/FGM.git
 
-
-1.install python2 (pkg install python2)
-2.install curl (pkg install curl)
-3.run the script (python2 FGM.py)
+$ cd FGM
+```
+ [ Running ]
+```
+$ python2 FGM.py
