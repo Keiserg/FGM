@@ -1,4 +1,4 @@
-import json , sys , hashlib , os , time , marshal , os.path
+import  sys , os , time , marshal , os.path
 import base64
 
 os.system("pkg install curl")
